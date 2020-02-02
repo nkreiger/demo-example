@@ -1,13 +1,22 @@
 # Go Chat
 
-This is a simple chat web app written in Go
+This is a simple chat web app written in Go and VueJS, Using WebSockets
 
 Just run the following
 
+GoLang Server:
+
 ```
-cd ./src
 go get github.com/gorilla/websocket
-go run main.go
+go run server/main.go
 ```
 
-Then point your browser to http://localhost:8000
+VueJS Client:
+
+```
+cd client
+npm install
+npm run serve
+```
+
+Then point your browser to http://localhost:8080
